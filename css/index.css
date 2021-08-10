@@ -298,7 +298,7 @@
     }
     .about .about-content .image  {
         position: relative;
-        width: 345px;
+        width: 315px;
         height: 183px;
     }  
     .about .about-content .image  img  {
@@ -327,28 +327,31 @@
     z-index:-1;
     } 
     .about .about-content .text {
-        flex-basis: calc(100% - 500px);
+    margin: 0 20px;
+    margin-top: 74px;
+    text-align: left;
     }
      .about .about-content .text p:first-of-type{
         font-weight: bold;
-        line-height: 2;
+        line-height: 1.7;
         margin-bottom: 30px;
     }
     .about .about-content .text hr {
         color:var(--main-color);
         display: inline-block;
         width: 50%;
+        display: block;
+        align-self: center;
     }
     .about .about-content .text p:last-of-type{
-        line-height: 2;
+        line-height: 1.7;
         margin-bottom: 30px;
         color: #777;
    }
    @media (max-width:767px){
     .about .about-content .text {
-        flex-basis: 100%;
-        font-size: 15px;
-        margin-top: 45px;
+        flex-basis: 50%;
+        font-size: 14px;
     }
     }
     @media (max-width:991px){
@@ -373,10 +376,10 @@
         margin-bottom: var(--margin-section);
     }
     .contact .info .label{
-        font-size:25px ;
+        font: size 18px; ;
         font-weight: 800;
         color: var(--scand-color);
-        letter-spacing: -2px;
+        letter-spacing:-1px;
         margin-bottom: 10px; 
     }
     .contact .info .link{
@@ -405,7 +408,7 @@
     color: white;
     padding: 30px 10px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
   }
   .footer span {
     font-weight: bold;
